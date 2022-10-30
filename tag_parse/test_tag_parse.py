@@ -24,7 +24,6 @@ class test(unittest.TestCase):
 		self.assertFalse(tag_parse.tag_parse('Ii0.0', 'iIqQ'))
 		self.assertFalse(tag_parse.tag_parse('I 0.0', 'iIqQ'))
 		self.assertFalse(tag_parse.tag_parse('I0.8', 'iIqQ'))
-		
 
 
 if __name__ == '__main__':
